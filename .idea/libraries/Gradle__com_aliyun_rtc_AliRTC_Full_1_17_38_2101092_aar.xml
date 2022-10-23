@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.aliyun.rtc:AliRTC-Full:1.17.38.2101092@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/AliRTC-Full-1.17.38.2101092.aar/5ea35bb8aea9313e5ee85b127a83ddae/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/AliRTC-Full-1.17.38.2101092.aar/5ea35bb8aea9313e5ee85b127a83ddae/jars/libs/r-classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/AliRTC-Full-1.17.38.2101092.aar/5ea35bb8aea9313e5ee85b127a83ddae/jars/libs/usbModule.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/AliRTC-Full-1.17.38.2101092.aar/5ea35bb8aea9313e5ee85b127a83ddae/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/AliRTC-Full-1.17.38.2101092.aar/5ea35bb8aea9313e5ee85b127a83ddae/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

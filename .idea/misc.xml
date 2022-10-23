@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/hulianwang+/alibabacloud-RTCBeaconTower-demo-master/Android/app/src/main/res/drawable/alirtc_bg_bt_create_shape_radius.xml" value="0.275" />
+        <entry key="..\:/hulianwang+/alibabacloud-RTCBeaconTower-demo-master/Android/app/src/main/res/layout/activity_join.xml" value="0.23229166666666667" />
+        <entry key="..\:/hulianwang+/alibabacloud-RTCBeaconTower-demo-master/Android/app/src/main/res/layout/activity_net_work_error.xml" value="0.23229166666666667" />
+        <entry key="..\:/hulianwang+/alibabacloud-RTCBeaconTower-demo-master/Android/app/src/main/res/layout/activity_user_setting.xml" value="0.2" />
+        <entry key="..\:/hulianwang+/alibabacloud-RTCBeaconTower-demo-master/Android/app/src/main/res/layout/aliyun_video_call_control_panel.xml" value="0.23229166666666667" />
+        <entry key="..\:/hulianwang+/alibabacloud-RTCBeaconTower-demo-master/Android/app/src/main/res/layout/aliyun_video_call_main.xml" value="0.23229166666666667" />
+        <entry key="..\:/hulianwang+/alibabacloud-RTCBeaconTower-demo-master/Android/app/src/main/res/layout/aliyun_video_call_small_window_item.xml" value="0.23229166666666667" />
+        <entry key="..\:/hulianwang+/alibabacloud-RTCBeaconTower-demo-master/Android/app/src/main/res/layout/aliyun_video_call_toast_view.xml" value="0.23229166666666667" />
+        <entry key="..\:/hulianwang+/alibabacloud-RTCBeaconTower-demo-master/Android/app/src/main/res/layout/aliyun_video_call_view.xml" value="0.23229166666666667" />
+        <entry key="..\:/hulianwang+/alibabacloud-RTCBeaconTower-demo-master/Android/app/src/main/res/layout/chart_content_userlist_item.xml" value="0.23229166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
