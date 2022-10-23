@@ -174,5 +174,20 @@
         android:text="@string/aliyun_rtc_hint"
         android:textColor="@color/white_alpha_100" />
 
+    <Button
+        android:id="@+id/btn_to_control"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_44"
+        android:layout_marginStart="@dimen/dimen_32"
+        android:layout_marginLeft="@dimen/dimen_32"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="@dimen/dimen_32"
+        android:layout_marginRight="@dimen/dimen_32"
+        android:background="@drawable/alivc_btn_bg_selector"
+        android:gravity="center"
+        android:onClick="toControl"
+        android:text="@string/aliyun_to_control"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/alivc_common_font_16" />
 
 </RelativeLayout>

@@ -14,6 +14,7 @@ import com.alirtc.beacontowner.R;
 import com.alivc.rtc.AliRtcAuthInfo;
 import com.aliyun.apsaravideo.sophon.base.BaseActivity;
 import com.aliyun.apsaravideo.sophon.bean.RTCAuthInfo;
+import com.aliyun.apsaravideo.sophon.control.ControlActivity;
 import com.aliyun.apsaravideo.sophon.listener.ChannelTextWatchListener;
 import com.aliyun.apsaravideo.sophon.listener.TextChangeListener;
 import com.aliyun.apsaravideo.sophon.listener.TextWatcherListener;
@@ -40,6 +41,7 @@ public class VideoCallJoinActivity extends BaseActivity implements View.OnClickL
 
     private Button btnJoinMeeting;
     private Button btnCreateMeeting;
+    private Button btnToControl;
     private TextView titlebarTitle;
     private EditText mEtNickName;
     private EditText etChannel;
@@ -89,6 +91,7 @@ public class VideoCallJoinActivity extends BaseActivity implements View.OnClickL
     private void initView() {
         titlebarTitle = findViewById(R.id.titlebar_title);
         btnCreateMeeting = findViewById(R.id.btn_meeting_create);
+        btnToControl = findViewById(R.id.btn_to_control);
         btnJoinMeeting = findViewById(R.id.btn_meeting_join);
         mEtNickName = findViewById(R.id.et_nickname);
         etChannel = findViewById(R.id.et_channel_id);
@@ -312,4 +315,12 @@ public class VideoCallJoinActivity extends BaseActivity implements View.OnClickL
     public boolean onCreateOptionsMenu(Menu menu) {
         return true;
     }
+    /**
+     * 跳转到控制界面
+     */
+    public void toControl(View view){
+        Intent intent = new Intent(this, ControlActivity.class);
+        startActivity(intent);
+    }
+
 }

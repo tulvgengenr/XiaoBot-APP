@@ -55,6 +55,7 @@
             android:launchMode="singleTask">
 
         </activity>
+        <activity android:name="com.aliyun.apsaravideo.sophon.control.ControlActivity"/>
     </application>
 
 </manifest>

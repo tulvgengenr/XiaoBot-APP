@@ -18,6 +18,7 @@
     <string name="aliyun_getuser_fail">获取用户信息失败</string>
     <string name="aliyun_joinchannel_hint">请输入创建的频道号（1~12位数字）</string>
     <string name="aliyun_create_channel">创建会议</string>
+    <string name="aliyun_to_control">控制界面</string>
     <string name="aliyun_rtc_hint">阿里云音视频通信RTC提供基础通信服务</string>
     <string name="aliyun_time_txt_include_hour">%1$s:%2$s:%3$s</string>
     <string name="aliyun_time_txt">%1$s:%2$s</string>

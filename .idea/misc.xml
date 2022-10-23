@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/hulianwang+/alibabacloud-RTCBeaconTower-demo-master/Android/app/src/main/res/drawable/alirtc_bg_bt_create_shape_radius.xml" value="0.275" />
+        <entry key="..\:/hulianwang+/alibabacloud-RTCBeaconTower-demo-master/Android/app/src/main/res/layout/activity_control.xml" value="0.134375" />
         <entry key="..\:/hulianwang+/alibabacloud-RTCBeaconTower-demo-master/Android/app/src/main/res/layout/activity_join.xml" value="0.23229166666666667" />
         <entry key="..\:/hulianwang+/alibabacloud-RTCBeaconTower-demo-master/Android/app/src/main/res/layout/activity_net_work_error.xml" value="0.23229166666666667" />
         <entry key="..\:/hulianwang+/alibabacloud-RTCBeaconTower-demo-master/Android/app/src/main/res/layout/activity_user_setting.xml" value="0.2" />
