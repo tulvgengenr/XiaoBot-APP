@@ -42,5 +42,6 @@ dependencies {
     implementation rootProject.ext.dependencies["gson"]
     implementation rootProject.ext.dependencies["externalGlide"]
     implementation 'com.aliyun.rtc:AliRTC-Full:1.17.38.2101092'
-
+    implementation 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.2'
+    implementation 'org.eclipse.paho:org.eclipse.paho.android.service:1.1.1'
 }
