@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.bumptech.glide:glide:4.8.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/770b428ff0f948c0623c0ab7d07ddbe0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/770b428ff0f948c0623c0ab7d07ddbe0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/770b428ff0f948c0623c0ab7d07ddbe0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../Android_Gradle_Downloaded_files/caches/transforms-1/files-1.1/glide-4.8.0.aar/a80153a0b0ecca3e93e2435e46fc35ea/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../Android_Gradle_Downloaded_files/caches/transforms-1/files-1.1/glide-4.8.0.aar/a80153a0b0ecca3e93e2435e46fc35ea/res" />
+      <root url="jar://$PROJECT_DIR$/../../../Android_Gradle_Downloaded_files/caches/transforms-1/files-1.1/glide-4.8.0.aar/a80153a0b0ecca3e93e2435e46fc35ea/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
