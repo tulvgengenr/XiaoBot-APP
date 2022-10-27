@@ -19,6 +19,10 @@
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <!--android 9.0上使用前台服务，需要添加权限-->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <!--连接MQTT需要的权限-->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+
 
     <application
         android:name="com.aliyun.apsaravideo.sophon.base.AliRtcApplication"
@@ -56,6 +60,10 @@
 
         </activity>
         <activity android:name="com.aliyun.apsaravideo.sophon.control.ControlActivity"/>
+        <!--注册MQTT需要的服务-->
+        <service android:name="org.eclipse.paho.android.service.MqttService" />
+        <service android:name="com.aliyun.apsaravideo.sophon.mqtt.MqttServer"/>
     </application>
 
 </manifest>
+
