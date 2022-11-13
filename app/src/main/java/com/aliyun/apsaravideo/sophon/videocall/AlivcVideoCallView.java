@@ -27,6 +27,7 @@ import com.alivc.rtc.AliRtcEngine;
 import com.alivc.rtc.AliRtcRemoteUserInfo;
 import com.aliyun.apsaravideo.sophon.bean.ChartUserBean;
 import com.aliyun.apsaravideo.sophon.bean.RTCAuthInfo;
+import com.aliyun.apsaravideo.sophon.mqtt.MqttServer;
 import com.aliyun.apsaravideo.sophon.rtc.RTCBeaconTowerCallback;
 import com.aliyun.apsaravideo.sophon.rtc.RTCBeaconTowerImpl;
 import com.aliyun.apsaravideo.sophon.utils.DensityUtil;
@@ -195,6 +196,7 @@ public class AlivcVideoCallView extends FrameLayout implements RTCBeaconTowerCal
         initControlView();
         getDisplayMetrics();
         startPreview();
+
     }
 
     private void initTimeTextView() {
@@ -212,7 +214,6 @@ public class AlivcVideoCallView extends FrameLayout implements RTCBeaconTowerCal
         mVideoLiveRecylerView = findViewById(R.id.alivc_video_call_remote_contentview);
         mUserVideoListAdapter = new ChartUserAdapter();
         initRecyclerView();
-
         mUserVideoListAdapter.setOnItemClickListener(new ChartUserAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(ChartUserBean bean, View view, int position, long itemId) {
@@ -321,6 +322,26 @@ public class AlivcVideoCallView extends FrameLayout implements RTCBeaconTowerCal
             @Override
             public void onVoiceMode() {
                 // switchVoiceModel();
+            }
+
+            @Override
+            public void controlUp() {
+                MqttServer.sentUp();
+            }
+
+            @Override
+            public void controlDown() {
+                MqttServer.sentDown();
+            }
+
+            @Override
+            public void controlLeft() {
+                MqttServer.sentLeft();
+            }
+
+            @Override
+            public void controlRight() {
+                MqttServer.sentRight();
             }
         });
     }

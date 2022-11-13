@@ -9,6 +9,7 @@ import android.widget.ImageButton;
 import android.widget.RelativeLayout;
 
 import com.alirtc.beacontowner.R;
+import com.aliyun.apsaravideo.sophon.mqtt.MqttServer;
 
 
 /**
@@ -44,6 +45,22 @@ public class AlivcControlView extends RelativeLayout {
      */
     private ImageButton btnVoiceMode;
 
+    /**
+     * 控制小车前进
+     */
+    private ImageButton btnControlUp;
+    /**
+     * 控制小车后退
+     */
+    private ImageButton btnControlDown;
+    /**
+     * 控制小车向左
+     */
+    private ImageButton btnControlLeft;
+    /**
+     * 控制小车向右
+     */
+    private ImageButton btnControlRight;
     /**
      * 记录摄像头选中与否
      */
@@ -83,6 +100,11 @@ public class AlivcControlView extends RelativeLayout {
         btnSwitchCamera = (ImageButton) findViewById(R.id.btn_switch_camera);
         btnHangUp = (ImageButton) findViewById(R.id.btn_hang_up);
         btnVoiceMode = (ImageButton) findViewById(R.id.btn_voice_mode);
+        btnControlUp = (ImageButton) findViewById(R.id.control_up_btn);
+        btnControlDown = (ImageButton) findViewById(R.id.control_down_btn);
+        btnControlLeft = (ImageButton) findViewById(R.id.control_left_btn);
+        btnControlRight = (ImageButton) findViewById(R.id.control_right_btn);
+
 
         btnCameraPreview.setOnClickListener(new OnClickListener() {
             @Override
@@ -130,6 +152,33 @@ public class AlivcControlView extends RelativeLayout {
                 onControlPanelListener.onVoiceMode();
             }
         });
+        /***
+         * 控制小车按钮的监听器
+         */
+        btnControlUp.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onControlPanelListener.controlUp();
+            }
+        });
+        btnControlDown.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onControlPanelListener.controlDown();
+            }
+        });
+        btnControlLeft.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onControlPanelListener.controlLeft();
+            }
+        });
+        btnControlRight.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onControlPanelListener.controlRight();
+            }
+        });
     }
 
     /**
@@ -156,6 +205,14 @@ public class AlivcControlView extends RelativeLayout {
         void onHangUp();
 
         void onVoiceMode();
+
+        void controlUp();
+
+        void controlDown();
+
+        void controlLeft();
+
+        void controlRight();
     }
 
     /**
@@ -190,5 +247,7 @@ public class AlivcControlView extends RelativeLayout {
     public boolean getImageButtonEnabled() {
         return btnEnabled;
     }
+
+
 
 }
