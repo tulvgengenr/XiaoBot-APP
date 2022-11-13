@@ -45,5 +45,9 @@
     <string name="alivc_videocall_net_error_timeout">网络超时，请退出房间</string>
     <string name="alivc_videocall_sure">确定</string>
     <string name="str_channel_code">会议码:%s</string>
+    <string name="up">UP</string>
+    <string name="left">LEFT</string>
+    <string name="right">RIGHT</string>
+    <string name="down">DOWN</string>
 
 </resources>

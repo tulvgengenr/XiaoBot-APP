@@ -32,7 +32,7 @@ public class RTCBeaconTowerImpl extends BaseRTCBeaconTower{
             mAliRtcEngine.registerVideoSampleObserver(new AliRtcEngine.AliVideoObserver() {
                 @Override
                 public void onLocalVideoSample(AliRtcEngine.AliVideoSourceType aliVideoSourceType, AliRtcEngine.AliVideoSample aliVideoSample) {
-                    System.out.println("本地视频数据为："+ aliVideoSample);
+
                 }
 
                 @Override

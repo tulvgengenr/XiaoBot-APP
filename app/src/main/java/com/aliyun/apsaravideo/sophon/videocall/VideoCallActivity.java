@@ -1,5 +1,6 @@
 package com.aliyun.apsaravideo.sophon.videocall;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -7,6 +8,7 @@ import android.widget.TextView;
 
 import com.alirtc.beacontowner.R;
 import com.aliyun.apsaravideo.sophon.bean.RTCAuthInfo;
+import com.aliyun.apsaravideo.sophon.mqtt.MqttServer;
 import com.aliyun.apsaravideo.sophon.utils.StringUtil;
 
 public class VideoCallActivity extends AppCompatActivity implements View.OnClickListener {
@@ -36,6 +38,9 @@ public class VideoCallActivity extends AppCompatActivity implements View.OnClick
         mTitleTv.setText(String.format(getResources().getString(R.string.str_channel_code),channel));
 
         alivcVideoCallView.auth(displayName, channel, mRtcAuthInfo);
+
+        Intent intent = new Intent(this, MqttServer.class);
+        startService(intent);
     }
 
     private void getIntentData() {
