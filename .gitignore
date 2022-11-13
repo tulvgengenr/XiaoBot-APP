@@ -1,14 +1,4 @@
 # ignore all except .gitignore file
 .git
-.gradle/
-.idea/
-gradle/
-Android.iml
-build.gradle
-dependencies.gradle
-gradle.properties
-gradlew
-gradlew.bat
-local.properties
-settings.gradle
+.idea
 app/build
