@@ -97,7 +97,6 @@ public class MqttServer extends Service {
                         public void onSuccess(IMqttToken asyncActionToken) { // 连接成功
 
                             try {
-                                Toast.makeText(getApplicationContext(), "连接成功！", Toast.LENGTH_LONG).show();
                                 mqttAndroidClient.subscribe(PUBLISH_TOPIC, 1);//订阅主题，参数：主题、服务质量
                             } catch (MqttException e) {
                                 e.printStackTrace();
